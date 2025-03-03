@@ -148,7 +148,7 @@ def convert(
         im = to_black_and_white(im)
     
     if output_path:
-        im.save(output_path, optimize=True, compress_level=9)
+        im.save(output_path, optimize=True, quality=20)
 
     return im
 
