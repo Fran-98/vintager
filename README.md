@@ -1,10 +1,10 @@
 # Vintager
 Lightweight Python library to convert photos to a vintage style.
-| Original                                 | Vintage Sepia            |
-|------------------------------------------|--------------------------|
-| ![](assets/original.jpg)                 | ![](assets/sepia.jpg)    |
-| Black and white high contrast            | Film                     |
-| ![](assets/black_and_white_contrast.jpg) | ![](assets/all.jpg)      |
+| Original                                                                                        | Vintage Sepia                                                                |
+|-------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
+| ![](https://raw.githubusercontent.com/Fran-98/vintager/refs/heads/main/assets/original.jpg)     | ![](https://github.com/Fran-98/vintager/blob/main/assets/sepia.jpg?raw=true) |
+| Black and white high contrast                                                                   | Film                                                                         |
+| ![](https://github.com/Fran-98/vintager/blob/main/assets/black_and_white_contrast.jpg?raw=true) | ![](https://github.com/Fran-98/vintager/blob/main/assets/all.jpg?raw=true)   |
 
 
 ## Installation
