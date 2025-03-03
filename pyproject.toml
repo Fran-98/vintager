@@ -1,0 +1,34 @@
+[project]
+name = "vintager"
+version = "1.1.2"
+authors = [
+  { name="Fran-98", email="franciscopvargas98@gmail.com" },
+]
+description = "A Python package for applying vintage effects to images."
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = { text = "MIT" }
+
+dependencies = [
+    "numpy==2.2.3",
+    "pillow==11.1.0",
+]
+
+[project.gui-scripts]
+vintager = "vintager:vintager"
+
+[project.urls]
+Homepage = "https://github.com/Fran-98/vintager"
+Issues = "https://github.com/Fran-98/vintager/issues"
+
+[build-system]
+requires = ["setuptools>=40.8.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["vintager"]
+
