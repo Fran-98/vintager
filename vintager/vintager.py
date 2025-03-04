@@ -101,7 +101,7 @@ def apply_sepia_tone(arr, intensity=1.2, contrast=1.3):
 
 def convert(
         image_path: str, 
-        output_path: str, 
+        output_path: str = None, 
         black_and_white: bool = False,
         high_contrast_black_and_white: bool = False, 
         apply_sepia: bool = False, 
