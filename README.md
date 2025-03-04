@@ -28,7 +28,7 @@ pip install .
 from vintager.vintager import convert
 
 im = convert(<image_path>, 
-        <image_output_path>, 
+        <optional_image_output_path>, 
         black_and_white=False, 
         high_contrast_black_and_white=False, 
         apply_sepia=False, 
